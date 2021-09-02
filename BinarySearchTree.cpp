@@ -91,7 +91,7 @@ void BST<T>::InorderWalkRec(Node<T>* node)
 	k--;
 }
 
-//Ex. 12.2.7. Итеративный обход дерева в симметричном порядке
+//Ex. 12.2.7. РС‚РµСЂР°С‚РёРІРЅС‹Р№ РѕР±С…РѕРґ РґРµСЂРµРІР° РІ СЃРёРјРјРµС‚СЂРёС‡РЅРѕРј РїРѕСЂСЏРґРєРµ
 template <typename T>
 void BST<T>::InorderWalkIter(Node<T>*node)
 {
@@ -158,7 +158,7 @@ Node<T>* BST<T>::Successor(Node<T>* node)
 	return prev;
 }
 
-//Ex. 12.2.3. Реализация процедуры Predecessor
+//Ex. 12.2.3. Р РµР°Р»РёР·Р°С†РёСЏ РїСЂРѕС†РµРґСѓСЂС‹ Predecessor
 template <typename T>
 Node<T>* BST<T>::Predecessor(Node<T>* node)
 {
@@ -310,7 +310,7 @@ int main()
 	return 0;
 }
 
-//Ex.12.3.3. Отсортировать при помощи двоичного дерева
+//Ex.12.3.3. РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ РїСЂРё РїРѕРјРѕС‰Рё РґРІРѕРёС‡РЅРѕРіРѕ РґРµСЂРµРІР°
 template <typename T>
 void Sort(std::vector<T>& vec)
 {
