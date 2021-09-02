@@ -48,7 +48,7 @@ std::tuple<int, int, T> FindMaxSubArray(const std::vector<T>& A, int low, int hi
 		return cross_result;
 }
 
-//Ex. 4.1.5. Реализовать итеративный алгоритм. Сложность O(n)
+//Ex. 4.1.5. Р РµР°Р»РёР·РѕРІР°С‚СЊ РёС‚РµСЂР°С‚РёРІРЅС‹Р№ Р°Р»РіРѕСЂРёС‚Рј. РЎР»РѕР¶РЅРѕСЃС‚СЊ O(n)
 template<typename T>
 std::tuple<int, int, T> FindMaxSubArrayIter(const std::vector<T>& A, int low, int high)
 {
