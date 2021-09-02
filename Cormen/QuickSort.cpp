@@ -27,7 +27,7 @@ void QuickSort(std::vector<T>& A, int begin, int end)
 	}
 }
 
-//Рандомизированная
+//Р Р°РЅРґРѕРјРёР·РёСЂРѕРІР°РЅРЅР°СЏ
 template <typename T>
 int RandomizedPartition(std::vector<T>& A, int p, int r)
 {
@@ -50,7 +50,7 @@ void RandomizedQuickSort(std::vector<T>& A, int begin, int end)
 	}
 }
 
-//Ex 7.2.б. Быстрая сортировка с равными элементами
+//Ex 7.2.Р±. Р‘С‹СЃС‚СЂР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР° СЃ СЂР°РІРЅС‹РјРё СЌР»РµРјРµРЅС‚Р°РјРё
 template <typename T>
 std::tuple<int,int> PartitionEq(std::vector<T>& A, int p, int r)
 {
@@ -81,7 +81,7 @@ void QuickSortEq(std::vector<T>& A, int begin, int end)
 	}
 }
 
-//Ex 7.2.в. Рандомизированная быстрая сортировка с равными элементами
+//Ex 7.2.РІ. Р Р°РЅРґРѕРјРёР·РёСЂРѕРІР°РЅРЅР°СЏ Р±С‹СЃС‚СЂР°СЏ СЃРѕСЂС‚РёСЂРѕРІРєР° СЃ СЂР°РІРЅС‹РјРё СЌР»РµРјРµРЅС‚Р°РјРё
 template <typename T>
 std::tuple<int, int> RandomizedPartitionEq(std::vector<T>& A, int p, int r)
 {
