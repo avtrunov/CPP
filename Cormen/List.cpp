@@ -7,7 +7,7 @@ struct link
 	link* next;
 	link* prev;
 };
-//Двусвязный список
+//Р”РІСѓСЃРІСЏР·РЅС‹Р№ СЃРїРёСЃРѕРє
 template <typename T>
 class List
 {
@@ -138,7 +138,7 @@ void List<T>::PushBack(T val)
 	}
 }
 
-//Ex. 10.2.7. Обратите односвязный список нерекурсивно со временнем работы O(n). Расход памяти O(1).
+//Ex. 10.2.7. РћР±СЂР°С‚РёС‚Рµ РѕРґРЅРѕСЃРІСЏР·РЅС‹Р№ СЃРїРёСЃРѕРє РЅРµСЂРµРєСѓСЂСЃРёРІРЅРѕ СЃРѕ РІСЂРµРјРµРЅРЅРµРј СЂР°Р±РѕС‚С‹ O(n). Р Р°СЃС…РѕРґ РїР°РјСЏС‚Рё O(1).
 template <typename T>
 void List<T>::Reverse()
 {
@@ -174,7 +174,7 @@ void List<T>::Display()
 	std::cout << '\n';
 }
 
-//Ex. 10.2.2. Реализуйте стэк с помощью списка. Push и Pop за O(1)
+//Ex. 10.2.2. Р РµР°Р»РёР·СѓР№С‚Рµ СЃС‚СЌРє СЃ РїРѕРјРѕС‰СЊСЋ СЃРїРёСЃРєР°. Push Рё Pop Р·Р° O(1)
 template <typename T>
 class Stack
 {
@@ -224,7 +224,7 @@ void Stack<T>::Display()
 	L.Display();
 }
 
-//Ex. 10.2.3. Реализуйте очередь с помощью списка. Push и Pop за O(1)
+//Ex. 10.2.3. Р РµР°Р»РёР·СѓР№С‚Рµ РѕС‡РµСЂРµРґСЊ СЃ РїРѕРјРѕС‰СЊСЋ СЃРїРёСЃРєР°. Push Рё Pop Р·Р° O(1)
 template <typename T>
 class Queue
 {
@@ -283,26 +283,6 @@ int main()
 	List<double> L;
 	int ch;
 	double val;
-	/*Queue<int> Q;
-	//Stack<int> S;
-	do
-	{
-		std::cout << "\n0.Exit\n1.Push\n2.Pop\n3.Display\n->";
-		std::cin >> ch;
-		switch (ch)
-		{
-		case 1:
-		{
-			std::cout << "Enter value: ";
-			std::cin >> val;
-			Q.Push(val);
-			break;
-		}
-		case 2: std::cout << "Pop it value: " << Q.Pop(); break;
-		case 3:Q.Display(); break;
-		}
-	} while (ch != 0);*/
-	
 	do
 	{
 		std::cout << "\n0.Exit\n1.Push front\n2.Push back\n3.Display\n4.Delete\n5.Reverse\n->";
