@@ -1,4 +1,4 @@
-//Ex. 6.5.7. Реализация очереди с приоритетом
+//Ex. 6.5.7. Р РµР°Р»РёР·Р°С†РёСЏ РѕС‡РµСЂРµРґРё СЃ РїСЂРёРѕСЂРёС‚РµС‚РѕРј
 #include <iostream>
 #include <algorithm>
 #include <list>
@@ -101,7 +101,7 @@ T PQueue<T>::Pop()
 	return Delete(0);
 }
 
-//Ex. 6.5.8. Удаление i-го узла за O(log(n))
+//Ex. 6.5.8. РЈРґР°Р»РµРЅРёРµ i-РіРѕ СѓР·Р»Р° Р·Р° O(log(n))
 template <typename T>
 T PQueue<T>::Delete(int i)
 {
@@ -117,7 +117,7 @@ T PQueue<T>::Delete(int i)
 	return temp;
 }
 
-//Ex. 6.5.9. Слияние k отсортированных списков за O(n+k log(k))
+//Ex. 6.5.9. РЎР»РёСЏРЅРёРµ k РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹С… СЃРїРёСЃРєРѕРІ Р·Р° O(n+k log(k))
 template <typename T>
 struct Pair
 {
