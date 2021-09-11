@@ -66,7 +66,7 @@ void Heap<T>::MaxHeapifyRec(int i)
 	}
 }
 
-//6.2.5. Написать итеративную версию MaxHeapify
+//6.2.5. РќР°РїРёСЃР°С‚СЊ РёС‚РµСЂР°С‚РёРІРЅСѓСЋ РІРµСЂСЃРёСЋ MaxHeapify
 template <typename T>
 void Heap<T>::MaxHeapifyIter(int i)
 {
