@@ -118,7 +118,7 @@ void RBT<T>::LeftRotate(Node<T>* node)
 	node->p = replace;
 }
 
-//Ex.13.2.1. Đĺŕëčçŕöč˙ RightRotate
+//Ex.13.2.1. Реализация RightRotate
 template <typename T>
 void RBT<T>::RightRotate(Node<T>* node)
 {
