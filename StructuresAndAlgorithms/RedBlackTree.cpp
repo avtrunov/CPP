@@ -10,7 +10,6 @@ struct Node
 	Node* p;
 	Node* left;
 	Node* right;
-	Node():color(Color::black),p(nullptr),left(nullptr),right(nullptr){}
 };
 
 template <typename T>
@@ -142,6 +141,8 @@ template <typename T>
 Node<T>* RBT<T>::NewNode(T data)
 {
 	auto newnode = new Node<T>;
+	newnode->color = Color::black;
+	newnode->p = newnode->left = newnode->right = nullptr;
 	newnode->key = data;
 	return newnode;
 }
